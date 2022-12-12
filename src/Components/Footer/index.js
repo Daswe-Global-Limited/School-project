@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaTwitter, FaWikipediaW, FaWeixin, FaPhone, FaInternetExplorer, FaMailBulk } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaTwitter, FaWeixin, FaPhone, FaInternetExplorer, FaMailBulk, FaGithub } from 'react-icons/fa'
 import './style.css'
 import { Link } from 'react-router-dom'
 import Logo from '../../Assets/Logo/logo2.png'
@@ -11,10 +11,10 @@ function Footer() {
         <div className="footersec1">
         <Link to='/'> <img src={Logo} alt='' className='imglogo' /> </Link>
             <div className="footersec1icon">
-              <a href="https://google.com" className='boardicon'><FaFacebook/></a>
-              <a href="https://google.com" className='boardicon'><FaInstagram/></a>
-              <a href="https://google.com" className='boardicon'><FaTwitter/></a>
-              <a href="https://google.com" className='boardicon'><FaWikipediaW/></a>
+              <a href="https://facebook.com/lekanokutubo" className='boardicon'><FaFacebook/></a>
+              <a href="https://instagram.com/olakved" className='boardicon'><FaInstagram/></a>
+              <a href="https://twitter.com/olakved" className='boardicon'><FaTwitter/></a>
+              <a href="https://github.com/olakved" className='boardicon'><FaGithub/></a>
             </div>
             <div className='col-subscribe'>
           <h3>Subscribe to our newsletter</h3>
