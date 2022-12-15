@@ -1,7 +1,8 @@
 import React from 'react'
 import './style.css'
-import Welcimage from '../../Assets/Home/welcimage.jpg'
+// import Welcimage from '../../Assets/Home/welcimage.jpg'
 // import { Link } from 'react-router-dom'
+import introVideo from '../../Assets/Home/introVideo.mp4'
 
 
 
@@ -12,7 +13,8 @@ function HomeSlider() {
             <div class="sliderwrapper">
                 <div className='outline'>                
                 <div className='welcimage'>
-                <img src={Welcimage} alt='welcimage' />
+                <video src={introVideo} autoPlay muted loop/>
+                {/* <img src={Welcimage} alt='welcimage' /> */}
                 </div>
                 <div class="welcometext">
                     <h1>Let's be part of your story</h1>

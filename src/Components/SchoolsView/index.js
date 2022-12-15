@@ -10,7 +10,6 @@ import { ImLocation2 } from "react-icons/im"
 
 
 
-
 function SchoolsView() {
 
 

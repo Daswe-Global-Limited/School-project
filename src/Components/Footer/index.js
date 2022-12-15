@@ -35,12 +35,12 @@ function Footer() {
         </div>
         <div className="footersec3">
           <h3>Schools</h3>
-          <a href="/schools/schools.html">ANCOHS</a>
-          <a href="/schools/schools.html">BHMGS</a>
-          <a href="/schools/schools.html">BMJS</a>
-          <a href="/schools/schools.html">CMS</a>
-          <a href="/schools/schools.html">LAGGS</a>
-          <a href="/schools/schools.html">LANPS</a>
+          <a href="/schools/schools.html">SCHOOL 1</a>
+          <a href="/schools/schools.html">SCHOOL 2</a>
+          <a href="/schools/schools.html">SCHOOL 3</a>
+          <a href="/schools/schools.html">SCHOOL 4</a>
+          <a href="/schools/schools.html">SCHOOL5</a>
+
         </div>
         <div className="footersec4">
           <h3>Contact Us</h3>
