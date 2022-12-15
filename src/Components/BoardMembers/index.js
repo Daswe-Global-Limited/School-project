@@ -19,7 +19,7 @@ function BoardMembers() {
                         <Link to='/'> <img src={BoardMember1} alt='' className='board-mem-img' /> </Link>
                         <div className="boardiconbox">
                             <div className="boardiconboxtitle">
-                                <h3>Tosin Paul</h3>
+                                <h3>Okutubo Lekan</h3>
                                 <p>The Principal</p>
                             </div>
                             <div className="boardiconboxsocial">
@@ -32,7 +32,7 @@ function BoardMembers() {
                     <div className="boardchildbox2">
                         <div className="boardiconbox">
                             <div className="boardiconboxtitle">
-                                <h3>Tosin Paul</h3>
+                                <h3>Lekan Michael</h3>
                                 <p>The Principal</p>
                             </div>
                             <div className="boardiconboxsocial">
@@ -47,7 +47,7 @@ function BoardMembers() {
                         <Link to='/'> <img src={BoardMember1} alt='' className='board-mem-img' /> </Link>
                         <div className="boardiconbox">
                             <div className="boardiconboxtitle">
-                                <h3>Tosin Paul</h3>
+                                <h3>Olakved Ola</h3>
                                 <p>Vice Principal</p>
                             </div>
                             <div className="boardiconboxsocial">
