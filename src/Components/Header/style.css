@@ -36,6 +36,13 @@ header {
     right: 1rem;
 }
 
+.hamburger2 {
+    display: none;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+}
+
 
 
 
@@ -54,8 +61,17 @@ header {
         
     }
 
+    .hamburger2 {
+        display: block;
+        margin-right: 20px;
+        margin-top: 50px;
+        position: absolute;
+        
+    }
+
     .nav-menu {
-        position: fixed;
+        position: absolute;
+        z-index:1;
         left: -100%;
         flex-direction: column;
         justify-content: center;

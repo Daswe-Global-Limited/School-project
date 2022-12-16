@@ -11,9 +11,9 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 
 
 function Header() {
+const [click, setClick] = useState(false)
 
-  const [click, setClick] = useState(false)
-  const handleClick = () => setClick(!click)
+  const handleClick = () => setClick((prevState) => !prevState)
 
 
 
@@ -24,7 +24,8 @@ function Header() {
           <Link to='/'> <img src={Logo} alt='' className='imglogo' /> </Link>
         </div>
         <div>
-          <ul className={click ? "nav-menu active" : 'nav-menu'}>
+          <ul className={click ? "nav-menu active" : 'nav-menu' }>
+            <FaTimes className='hamburger2' size={25} style={{ color: '#ffffff' }} onClick={handleClick} />
             <li className='nav-item'>
               <Link to='/' className='nav-link'>Home</Link>
             </li>
@@ -43,7 +44,7 @@ function Header() {
           </ul>
         </div>
         <div className='hamburger' onClick={handleClick}>
-          {click ? (<FaTimes size={20} style={{ color: '#ffffff' }} />) : (<FaBars size={20} style={{ color: '#ffffff' }} />)}
+          <FaBars size={20} style={{ color: '#ffffff' }} />
         </div>
         </div>
     </header >

@@ -11,10 +11,10 @@ function Footer() {
         <div className="footersec1">
         <Link to='/'> <img src={Logo} alt='' className='imglogo' /> </Link>
             <div className="footersec1icon">
-              <a href="https://facebook.com/lekanokutubo" className='boardicon'><FaFacebook/></a>
-              <a href="https://instagram.com/olakved" className='boardicon'><FaInstagram/></a>
-              <a href="https://twitter.com/olakved" className='boardicon'><FaTwitter/></a>
-              <a href="https://github.com/olakved" className='boardicon'><FaGithub/></a>
+              <a href="https://facebook.com/lekanokutubo" className='boardicon'><FaFacebook size={20}/></a>
+              <a href="https://instagram.com/olakved" className='boardicon'><FaInstagram size={20}/></a>
+              <a href="https://twitter.com/olakved" className='boardicon'><FaTwitter size={20}/></a>
+              <a href="https://github.com/olakved" className='boardicon'><FaGithub size={20}/></a>
             </div>
             <div className='col-subscribe'>
           <h3>Subscribe to our newsletter</h3>
