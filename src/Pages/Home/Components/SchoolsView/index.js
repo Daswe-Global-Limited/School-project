@@ -1,21 +1,14 @@
 import React from 'react'
-import './style.css'
 import { Link } from 'react-router-dom'
 import schoolLogo from '../../../../Assets/Logo/schoolLogo.PNG'
 import { ImLocation2 } from "react-icons/im"
-
-
-
-
-
-
+import { SchoolWrap } from './style'
 
 
 function SchoolsView() {
 
-
     return (
-        <div className="schoolswrap">
+        <SchoolWrap>
             <div className="schoolintro">
                 <div className="schoolsintroa">
                     <p>OUR SCHOOLS</p>
@@ -68,7 +61,7 @@ function SchoolsView() {
                 </div>
             </div>
 
-        </div>
+        </SchoolWrap>
     )
 }
 

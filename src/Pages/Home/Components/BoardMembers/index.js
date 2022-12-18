@@ -1,12 +1,12 @@
 import React from 'react'
-import './style.css'
 import { Link } from 'react-router-dom'
 import BoardMember1 from '../../../../Assets/Home/board-member-1.jpeg'
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'
+import { BoardWrap } from './style'
 
 function BoardMembers() {
     return (
-        <div className="boardwrap">
+        <BoardWrap>
             <div className="boardintro">
                 <div className="boardintroa">
                     <p>BOARD MEMBERS</p>
@@ -60,7 +60,7 @@ function BoardMembers() {
                 </div>
             </div>
 
-        </div>
+        </BoardWrap>
     )
 
 }

@@ -1,13 +1,13 @@
 import React from 'react'
-import './style.css'
 import Logo from '../../Assets/Logo/logo2.png'
 import LoginImage from '../../Assets/Login/login-img.jpg'
 import { Link } from 'react-router-dom'
+import { LoginWrapper } from './style'
 
 
 function LoginPage() {
     return (
-        <div className="containerwrapper">
+        <LoginWrapper>
             <div className="login-container">
                 <div className="div1">
                     <div className="div1a">
@@ -54,7 +54,7 @@ function LoginPage() {
             </div>
 
 
-        </div>
+        </LoginWrapper>
     )
 }
 

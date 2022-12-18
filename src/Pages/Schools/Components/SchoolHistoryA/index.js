@@ -1,9 +1,9 @@
 import React from 'react'
-import './style.css'
-import SchoolfounderImage from '../../Assets/Schools/school-founder.jpg'
-import SchoolExecutive1 from '../../Assets/Schools/school-exec-1.jpeg'
-import SchoolExecutive2 from '../../Assets/Schools/school-exec-2.jpeg'
-import SchoolExecutive3 from '../../Assets/Schools/school-exec-3.jpeg'
+import SchoolfounderImage from '../../../../Assets/Schools/school-founder.jpg'
+import SchoolExecutive1 from '../../../../Assets/Schools/school-exec-1.jpeg'
+import SchoolExecutive2 from '../../../../Assets/Schools/school-exec-2.jpeg'
+import SchoolExecutive3 from '../../../../Assets/Schools/school-exec-3.jpeg'
+import { HistoryWrap } from './style'
 
 
 
@@ -11,7 +11,7 @@ import SchoolExecutive3 from '../../Assets/Schools/school-exec-3.jpeg'
 
 function SchoolHistoryA() {
     return (
-        <div>
+        <HistoryWrap>
         <div class="historycontainer">
             <div class="historycontent">
                 <h1>OUR HISTORY</h1>
@@ -131,7 +131,7 @@ function SchoolHistoryA() {
 
 
 
-        </div>
+        </HistoryWrap>
     )
 }
 

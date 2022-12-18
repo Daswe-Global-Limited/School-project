@@ -9,7 +9,6 @@ import {
   FaMailBulk,
   FaGithub,
 } from "react-icons/fa";
-import "./style.css";
 import { Link } from "react-router-dom";
 import Logo from "../../Assets/Logo/logo2.png";
 import { FooterWrapper } from "./style";

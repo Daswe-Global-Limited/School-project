@@ -1,8 +1,10 @@
-.boardwrap {
-    background-color: white;
-    opacity: 0.9;
-}
+import styled from "styled-components";
 
+export const BoardWrap = styled.div`
+ background-color: white;
+    opacity: 0.9;
+
+    
 .boardintro {
     display: flex;
     justify-content: center;
@@ -182,3 +184,4 @@ a {
         text-align: center;
     }
 }
+`

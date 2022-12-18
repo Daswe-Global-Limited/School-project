@@ -1,8 +1,7 @@
 import React from 'react'
-import './style.css'
-import SchoolsBanner from '../../Components/SchoolsBanner'
-import SchoolHistoryA from '../../Components/SchoolHistoryA'
-import SchoolAchievement from '../../Components/SchoolAchievement'
+import SchoolsBanner from '../Schools/Components/SchoolsBanner'
+import SchoolHistoryA from '../Schools/Components/SchoolHistoryA'
+import SchoolAchievement from '../Schools/Components/SchoolAchievement'
 
 
 

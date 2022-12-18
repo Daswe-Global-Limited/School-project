@@ -1,17 +1,17 @@
 import React from 'react'
-import './style.css'
-import Award1 from '../../Assets/Schools/award-1.jpg'
-import Award2 from '../../Assets/Schools/award-2.jpg'
-import Award3 from '../../Assets/Schools/award-3.jpg'
-import Award4 from '../../Assets/Schools/award-4.jpg'
-import Award5 from '../../Assets/Schools/award-5.jpg'
+import Award1 from '../../../../Assets/Schools/award-1.jpg'
+import Award2 from '../../../../Assets/Schools/award-2.jpg'
+import Award3 from '../../../../Assets/Schools/award-3.jpg'
+import Award4 from '../../../../Assets/Schools/award-4.jpg'
+import Award5 from '../../../../Assets/Schools/award-5.jpg'
+import { AchievementSection } from './style'
 
 
 
 
 function SchoolAchievement() {
     return (
-        <div className='achievemntsection'>
+        <AchievementSection>
             <div class="achievementwrap">
                 <h1>NOTABLE AWARDS</h1>
                 <div class="achievementbox">
@@ -37,7 +37,7 @@ function SchoolAchievement() {
                     </div>
                 </div>
             </div>
-        </div>
+        </AchievementSection>
     )
 }
 

@@ -159,7 +159,7 @@ export const FooterWrapper = styled.div`
   }
 
   @media screen and (max-width: 960px) {
-    .footer {
+    .footer-box {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;

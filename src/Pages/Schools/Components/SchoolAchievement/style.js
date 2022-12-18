@@ -1,7 +1,9 @@
-.achievemntsection{
-  width: 100%;
-}
+import styled from "styled-components";
 
+export const AchievementSection = styled.div`
+ width: 100%;
+
+ 
 .achievementwrap{
     margin-top: 50px;
     margin-bottom: 30px;
@@ -100,3 +102,4 @@
     font-size: 12px;
 }
   }
+`
