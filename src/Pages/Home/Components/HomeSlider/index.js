@@ -6,15 +6,15 @@ import { BannerWrapper } from './styles'
 function HomeSlider({bannerData}) {
     return (
         <BannerWrapper>
-            <div class="sliderwrapper">
+            <div className="sliderwrapper">
                 <div className='outline'>                
                 <div className='welcimage'>
                 <video src={bannerData.video} autoPlay muted loop/>
 
                 </div>
-                <div class="welcometext">
+                <div className="welcometext">
                     <h1>{bannerData.title}</h1>
-                    <button class="btn">
+                    <button className="btn">
                         <Link to="/signup">{bannerData.buttonText}</Link>
                     </button>
                 </div>

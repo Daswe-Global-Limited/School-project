@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const ValueWrapper = styled.div`
-.valuebox {
+  .valuebox {
     padding: 50px 100px;
   }
-  
+
   .valueblock {
     display: flex;
     justify-content: space-between;
@@ -20,80 +20,67 @@ export const ValueWrapper = styled.div`
   .valueblock > div:nth-child(2) {
     border-right: 1px dotted white;
   }
-  
-  /* .valuea,
-  .valueb {
-    border-right: 1px dotted white;
-  }
-   */
-  .valuea,
-  .valueb,
-  .valuec {
+
+  .value {
     padding: 0px 15px;
     color: white;
   }
-  
+
   .icon {
     margin-bottom: 25px;
     font-size: 35px;
     color: white;
   }
-  
-  .valuea h3,
-  .valueb h3,
-  .valuec h3 {
+
+  .value h3 {
     font-size: 17px;
     margin-bottom: 15px;
   }
-  
-  .valuea p,
-  .valueb p,
-  .valuec p {
+
+  .value p {
     font-size: 15px;
   }
 
-
-
   @media screen and (max-width: 768px) {
+    .valueblock > div:nth-child(1) {
+      border-right: none;
+      border-bottom: 1px dotted white;
+      padding-bottom: 20px;
+    }
+
+    .valueblock > div:nth-child(2) {
+      border-right: none;
+      border-bottom: 1px dotted white;
+      padding-bottom: 20px;
+    }
+
     .valueblock {
-        flex-direction: column;
-        gap: 40px;
-      }
+      flex-direction: column;
+      gap: 40px;
+    }
 
-      .valuea,
-      .valueb {
-        border-bottom: 1px dotted white;
-        border-right: none;
-        padding-bottom: 20px;
-      }
-
-      .valuea,
-      .valueb,
-      .valuec {
-        text-align: center;
-      }
+    .value {
+      text-align: center;
+    }
   }
-
 
   @media screen and (max-width: 450px) {
     .valueblock {
-        flex-direction: column;
-        gap: 40px;
-      }
-    
-      .valuea,
-      .valueb {
-        border-bottom: 1px dotted white;
-        border-right: none;
-      }
-    
-      .valuea p,
-      .valueb p {
-        margin-bottom: 18px;
-      }
+      flex-direction: column;
+      gap: 40px;
+    }
 
-      .valuebox{
-        padding: 30px 40px;
-      }
+    .value {
+      border-bottom: 1px dotted white;
+      border-right: none;
+    }
+
+    .value p {
+      margin-bottom: 18px;
+    }
+
+    .valuebox {
+      padding: 30px 40px;
+    }
   }
-`
+`;

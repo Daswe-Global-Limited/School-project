@@ -26,29 +26,29 @@ export const QuestionWrapper = styled.div`
 }
 
 
-.question-section .col-2 {
+.question-sec-content .col-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: .8rem;
 }
 
-.question-section .col-2 p {
+.question-sec-content .col-2 p {
     color: grey;
 }
 
-.question-section .form-layout {
+.question-sec-content .form-layout {
     width: 400px;
     margin: auto;
     background-color: #fff;
     border-radius: 6px;
 }
 
-.question-section .form-container {
+.question-sec-content .form-container {
     padding: 1.5rem 2rem;
 }
 
-.question-section .sign-in-txt {
+.question-sec-content .sign-in-txt {
     margin-bottom: 15px;
     text-align: center;
 }
@@ -94,7 +94,7 @@ export const QuestionWrapper = styled.div`
 }
 
 
-.question-section-btn {
+.question-sec-content-btn {
     padding: 0.4rem 2rem;
     background-color: rgb(56, 1, 56);
     color: white;
@@ -110,7 +110,7 @@ export const QuestionWrapper = styled.div`
     width: 300px;
   }
 
-.question-section .form-footer {
+.question-sec-content .form-footer {
     border-top: 1px solid lightgrey;
     background-color: #f8f8f8;
     border-bottom-right-radius: 8px;
@@ -139,7 +139,7 @@ export const QuestionWrapper = styled.div`
 
 
 @media screen and (max-width:960px) {
-    .question-section {
+    .question-sec-content {
         height: auto;
         width: 100%;
     }
@@ -166,7 +166,7 @@ export const QuestionWrapper = styled.div`
         height: 120px;
     }
 
-    .question-section .form-layout {
+    .question-sec-content .form-layout {
         width: 300px;
     }
 
@@ -186,7 +186,7 @@ export const QuestionWrapper = styled.div`
         height: 120px;
     }
 
-    .question-section .form-layout {
+    .question-sec-content .form-layout {
         width: 270px;
     }
 
