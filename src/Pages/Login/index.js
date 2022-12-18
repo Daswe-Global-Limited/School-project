@@ -4,6 +4,7 @@ import Logo from '../../Assets/Logo/logo2.png'
 import LoginImage from '../../Assets/Login/login-img.jpg'
 import { Link } from 'react-router-dom'
 
+
 function LoginPage() {
     return (
         <div className="containerwrapper">

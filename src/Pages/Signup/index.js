@@ -1,8 +1,8 @@
 import React from 'react'
-import './style.css'
 import Logo from '../../Assets/Logo/logo2.png'
 import SignupImage from '../../Assets/Login/login-img.jpg'
 import { Link } from 'react-router-dom'
+import { PText, SignupWrapper, H1 } from './style'
 
 
 
@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 function SignUpPage() {
   return (
-    <div className="containerwrapper">
+<SignupWrapper> 
     <div className="signup-container">
         <div className="div1">
             <div className="div1a">
@@ -29,6 +29,8 @@ function SignUpPage() {
                         <label for="address" id="address">Address</label>
                         <input type="text" id="address" name="address" />
                     </div>
+                    <PText>TEST TEXT</PText>
+                    <H1>HEADLINE TEST</H1>
                     <div className="forminput">
                         <label for="email" id="email">Email</label>
                         <input type="email" id="email" name="email" />
@@ -72,8 +74,10 @@ function SignUpPage() {
         </div>
     </div>
 
+</SignupWrapper>
 
-</div>
+
+
   )
 }
 
