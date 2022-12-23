@@ -16,15 +16,12 @@ export const QuestionWrapper = styled.div`
     gap: 80px;
 }
 
-
-
 .questionImage {
     margin-top: 45%;
     /* align-self: center; */
     width: 350px;
     height: 180px;
 }
-
 
 .question-sec-content .col-2 {
     display: flex;
@@ -84,7 +81,6 @@ export const QuestionWrapper = styled.div`
 
 
 .que-form input {
-    /* display: block; */
     width: 100%;
     margin: 8px 0;
     padding: 8px;
@@ -94,7 +90,7 @@ export const QuestionWrapper = styled.div`
 }
 
 
-.question-sec-content-btn {
+.question-section-btn {
     padding: 0.4rem 2rem;
     background-color: rgb(56, 1, 56);
     color: white;

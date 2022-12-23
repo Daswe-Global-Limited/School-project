@@ -37,7 +37,6 @@ const QuestionSection = () => {
                                     <span className='primary-color'> Cookies Policy</span>.
                                 </p>
                             </div>
-
                         </div>
                     </div>
                 </div>

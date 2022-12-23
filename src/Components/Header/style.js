@@ -87,7 +87,7 @@ export const HeaderWrapper = styled.header`
   }
 
   @media screen and (max-width: 414px) {
-    .nav-menu.active {
+    .nav-menu-active {
       margin-top: -130px;
       height: 100vh;
     }

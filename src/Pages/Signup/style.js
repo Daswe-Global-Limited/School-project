@@ -55,6 +55,7 @@ min-height: 100vh;
     margin-top: 15px;
     margin-bottom: 30px;
   }
+
   
   label {
     display: block;
