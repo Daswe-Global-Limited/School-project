@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaGraduationCap, FaBrain, FaCloudsmith} from 'react-icons/fa'
+import schoolImg from "../../Assets/Logo/schoolLogo.PNG";
+
 
 export const HomeData = {
     homeBannerData: {
@@ -28,26 +30,27 @@ export const HomeData = {
         },
     ],
 
-    schoolData: {
-        smallText: "",
-        bigTitle: "",
-        otherSchools: [
-            {
-                schoolImg:"",
-                schoolName:"",
-            },
-            {
-                schoolImg:"",
-                schoolName:"",
-            },
-            {
-                schoolImg:"",
-                schoolName:"",
-            },
-            {
-                schoolImg:"",
-                schoolName:"",
-            },
-        ]
-    }
+   schoolData: {
+    smallText: "OUR SCHOOLS",
+    bigTitle: "A Quick View Of Our Schools",
+
+    otherSchools: [
+      {
+        schoolImg: schoolImg,
+        schoolName: "School A",
+      },
+      {
+        schoolImg: schoolImg,
+        schoolName: "School B",
+      },
+      {
+        schoolImg: schoolImg,
+        schoolName: "School C",
+      },
+      {
+        schoolImg: schoolImg,
+        schoolName: "School D",
+      },
+    ],
+  },
 }
