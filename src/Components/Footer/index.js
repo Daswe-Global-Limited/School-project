@@ -1,17 +1,9 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaWeixin,
-  FaPhone,
-  FaInternetExplorer,
-  FaMailBulk,
-  FaGithub,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Logo from "../../Assets/Logo/logo2.png";
 import { FooterWrapper } from "./style";
+import { footerData } from "./mockData";
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -20,7 +12,6 @@ function Footer() {
       <div className="footer-box">
         <div className="footersec1">
           <Link to="/">
-            {" "}
             <img src={Logo} alt="" className="imglogo" />{" "}
           </Link>
           <div className="footersec1icon">
@@ -50,57 +41,29 @@ function Footer() {
           </div>
         </div>
         <div className="footersec2">
-          <h3>Quick Links</h3>
-          <Link to="/" className="foot-link">
-            Home
-          </Link>
-          <Link to="/schools" className="foot-link">
-            Schools
-          </Link>
-          <Link to="/about" className="foot-link">
-            About
-          </Link>
-          <Link to="/team" className="foot-link">
-            Team
-          </Link>
-          <Link to="/admission" className="foot-link">
-            Admission
-          </Link>
+          <h3>{footerData.footerLine2.title}</h3>
+          {footerData.footerLine2.data.map((item, index) => (
+            <Link href={item.path} className="foot-link">
+              {item.title}
+            </Link>
+          ))}
         </div>
         <div className="footersec3">
-          <h3>Schools</h3>
-          <a href="/schools/schools.html">SCHOOL 1</a>
-          <a href="/schools/schools.html">SCHOOL 2</a>
-          <a href="/schools/schools.html">SCHOOL 3</a>
-          <a href="/schools/schools.html">SCHOOL 4</a>
-          <a href="/schools/schools.html">SCHOOL5</a>
+          <h3>{footerData.footerLine3.title}</h3>
+          {footerData.footerLine3.data.map((item, index) => (
+            <Link href={item.path}>{item.title}</Link>
+          ))}
         </div>
         <div className="footersec4">
-          <h3>Contact Us</h3>
-          <div className="footerb">
-            <a href="https://google.com" className="contact-icon">
-              <FaInternetExplorer />
-            </a>
-            <p> www.futureschool.com</p>
-          </div>
-          <div className="footerb2">
-            <a href="https://google.com" className="contact-icon">
-              <FaMailBulk />
-            </a>
-            <p> futureschool@gmail.com</p>
-          </div>
-          <div className="footerb3">
-            <a href="https://google.com" className="contact-icon">
-              <FaPhone />
-            </a>
-            <p> +2348100805056</p>
-          </div>
-          <div className="footerb4">
-            <a href="https://google.com" className="contact-icon">
-              <FaWeixin />
-            </a>
-            <p> Chat with admin</p>
-          </div>
+          <h3>{footerData.footerLine4.title}</h3>
+          {footerData.footerLine4.availableData.map((item, index) => (
+            <div className="footerb" key={index}>
+              <Link href={item.path} className="contact-icon">
+                {item.icon}
+              </Link>
+              <p> {item.title}</p>
+            </div>
+          ))}
         </div>
       </div>
       <div className="copyright">

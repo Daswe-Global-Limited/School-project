@@ -33,7 +33,6 @@ export const HomeData = {
    schoolData: {
     smallText: "OUR SCHOOLS",
     bigTitle: "A Quick View Of Our Schools",
-
     otherSchools: [
       {
         schoolImg: schoolImg,
