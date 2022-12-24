@@ -79,9 +79,7 @@ export const FooterWrapper = styled.div`
     border-radius: 4px;
   }
 
-  .footersec2,
-  .footersec3,
-  .footersec4 h3 {
+  .footer-box h3 {
     color: rgb(56, 1, 56);
   }
 
@@ -110,11 +108,12 @@ export const FooterWrapper = styled.div`
   .footersec4 h3 {
     margin-bottom: 20px;
   }
+  
   .footersec4 {
     margin-right: 50px;
   }
 
-  .footersec4 p {
+  .footersec4 Link {
     font-size: 15px;
   }
 
@@ -130,23 +129,6 @@ export const FooterWrapper = styled.div`
     margin-bottom: 15px;
   }
 
-  .footerb2 {
-    display: flex;
-    align-content: left;
-    gap: 10px;
-    margin-bottom: 15px;
-  }
-  .footerb3 {
-    display: flex;
-    align-content: left;
-    gap: 10px;
-    margin-bottom: 15px;
-  }
-  .footerb4 {
-    display: flex;
-    align-content: left;
-    gap: 10px;
-  }
 
   .copyright {
     display: flex;
