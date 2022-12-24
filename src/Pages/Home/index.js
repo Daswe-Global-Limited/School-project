@@ -15,7 +15,7 @@ function HomePage() {
     <div>
       <HomeSlider bannerData={HomeData.homeBannerData} />
       <ValuesComponent valueData={HomeData.valueData} />
-      <SchoolsView />
+      <SchoolsView schoolData={HomeData.schoolData}/>
       <BoardMembers />
       <QuestionSection />
     </div>
