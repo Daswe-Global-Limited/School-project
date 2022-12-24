@@ -29,12 +29,12 @@ export const SchoolWrap = styled.div`
 .parentflexbox {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   padding: 0px 100px;
 }
 
 .childflexbox {
   display: flex;
+  gap: 20px;
   padding: 20px;
   margin-top: 5px;
   margin-bottom: 50px;
@@ -44,7 +44,7 @@ export const SchoolWrap = styled.div`
 
 
 .childbox {
-  padding: 0px 15px;
+  /* padding: 0px 15px; */
   border-radius: 8px;
   text-align: center;
   font-size: 20px;
@@ -64,50 +64,46 @@ export const SchoolWrap = styled.div`
   width: 200px;
 }
 
-/* .image {
-    display: block;
-    width: 100%;
-    height: auto;
-  } */
-
 .sch-childbox-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgb(56, 1, 56);
+  background-color: rgb(56, 1, 56, 0.5);
   overflow: hidden;
   width: 100%;
   height: 0;
   transition: .5s ease;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
+  border-radius: 8px;
 }
 
 .childbox:hover .sch-childbox-overlay {
   height: 100%;
 }
 
-.sch-img-over-text {
-  white-space: nowrap;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.school-btn{
+  background-color: white;
+  padding:9px;
+  color: purple;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 1.75;
+  text-transform: uppercase;
+  width: 60%;
 }
 
-
-
-
-
-.childbox a {
+.sch-img-over-text {
+ display: flex;
+ justify-content: center;
+ margin-top: 80px;
   color: white;
   font-size: 20px;
-  font-weight: 600;
 }
 
 
